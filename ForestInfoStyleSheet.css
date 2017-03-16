@@ -1,0 +1,149 @@
+<style>
+
+.header{
+	width: 100%;
+}
+
+.header_bar{
+	background-color:#4fa036;
+	height:50px;
+	width:100%;
+}
+
+.brand_icon{
+	float:left;
+}
+
+.header_bar_element_space{
+	float:right;
+	padding-top:5px;
+	padding-right:30px;
+}
+
+ul.header_element_list li a{
+	font-family: 'Open Sans', sans-serif;
+	font-size:30px;
+	color:white;
+	padding-left:20px;
+	text-decoration: none; /*Remove underscore from link*/
+}
+
+ul.header_element_list li a:hover{
+	color:#DD6E42;
+}
+
+body{
+	/*By defualt the body has margin and/or padding,
+	  resulting in a gap between the corners of the
+	  webpage and header as well as the footer.*/
+		margin:0px;
+		padding:0px;
+}
+
+.content{
+
+}
+
+.main{
+	position:relative;
+	height:100%;
+}
+
+.content_scaler{
+	margin:0px;
+	padding-left:400px;
+	padding-right:400px;
+}
+
+
+
+#clip{
+	position:absolute;
+	clip: rect(800px,1920px,1080px,0);
+	top:-820px;
+}
+.footer{
+	width: 100%;
+}
+
+.footer_content_upper{
+	background-color:#4fa036;
+	height: 80px;
+}
+
+.footer_content_lower{
+	background-color:#489232;
+	height:40px;
+}
+
+.footer_legal{
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	color:white;
+}
+
+ul.footer_privacy_element_list li a{
+	text-decoration: none; /*Remove underscore from link*/
+	color:white;
+	padding-left:10px;
+}
+ul.footer_privacy_element_list li a:hover{
+	color:#DD6E42;
+}
+.copyright p{
+	/*By defualt the <p> and <h1> tags use margin and padding
+	  by setting margin and padding to 0px, it stops the tags 
+	  from making gaps inbetweeen divs*/
+	margin:0px;
+	height:100%;
+}
+
+.copyright {
+	background-color:red; 
+	text-align:left;
+	float:left;
+	width:33.33%;
+
+	/*aligns text but causes gap between content and bottom of the page */
+	/*padding-top:25px;*/ 
+}
+
+.social_media{
+
+	background-color:white;
+	text-align:center;
+	float:left;
+	width:33.33%;
+
+	/*aligns text but causes gap between content and bottom of the page */
+	/*padding-top:25px;*/ 
+}
+
+ul.social_media_element_list li a{
+	text-decoration: none;
+}
+ul.social_media_element_list li a:hover{
+	background-color:#DD6E42;
+
+}
+
+.privacy_others{
+
+	background-color:blue;
+	text-align:right;
+	float:left;
+	width:33.33%;
+
+	/*aligns text but causes gap between content and bottom of the page */
+	/*padding-top:25px;*/ 
+}
+
+ul {
+	margin:0px;
+	height:100%;
+}
+ul#nonBulletedHorizontalList li{
+	display:inline;
+}
+
+</style>
